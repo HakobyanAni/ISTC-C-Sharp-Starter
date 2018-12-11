@@ -10,6 +10,9 @@ namespace Exercise_3
     {
         static void Main(string[] args)
         {
+            //Խնդիր_3:
+            //Ներածել n միանիշ թիվը։ Արտածել n-ին չգերազանցող թվանշանները։
+
             string s3 = Console.ReadLine();
             int n = Convert.ToInt32(s3);
             while (n >= 0)

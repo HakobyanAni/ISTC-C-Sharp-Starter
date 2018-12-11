@@ -10,6 +10,9 @@ namespace Exercise_2
     {
         static void Main(string[] args)
         {
+            //Խնդիր_2:
+            //Տրված են K և N(N > 0) ամբողջ թվերը։ N անգամ արտածել K թիվը։
+
             string s1 = Console.ReadLine();
             int K = Int32.Parse(s1);
             string s2 = Console.ReadLine();

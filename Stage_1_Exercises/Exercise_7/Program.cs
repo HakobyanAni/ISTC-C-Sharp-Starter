@@ -24,6 +24,7 @@ namespace Exercise_7
                 A++;
             }
             Console.Write(sum);
+            Console.ReadKey();
         }
     }
 }

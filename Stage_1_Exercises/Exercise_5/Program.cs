@@ -8,17 +8,18 @@ namespace Exercise_5
 {
     class Program
     {
+        //Խնդիր_5:
+        //Հաշվել տրված բնական թվին չգերազանցող զույգ թվերի գումարը՝ առանց զույգությունը ստուգելու։
         static void Main(string[] args)
         {
-            // Խնդիր_3:
-            // Ներածել n միանիշ թիվը։ Արտածել n-ին չգերազանցող թվանշանները։
             string s = Console.ReadLine();
-            int n = Convert.ToInt32(s);
-            while (n >= 0)
+            int numb = Int32.Parse(s);
+            int sumOfNumber = 0;
+            for (int i = 2; i <= numb; i += 2)
             {
-                Console.Write(n + "\0");
-                n--;
+                sumOfNumber += i;
             }
+            Console.WriteLine(sumOfNumber);
             Console.ReadKey();
         }
     }

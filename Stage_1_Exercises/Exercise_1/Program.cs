@@ -15,13 +15,13 @@ namespace Exercise_1
 
             string s = Console.ReadLine();
             int number = Convert.ToInt32(s);
-            int sumOofDigits = 0;
+            int sumOfDigits = 0;
             while (number != 0)
             {
-                sumOofDigits += number % 10;
+                sumOfDigits += number % 10;
                 number /= 10;
             }
-            Console.WriteLine(sumOofDigits);
+            Console.WriteLine(sumOfDigits);
         }
     }
 }

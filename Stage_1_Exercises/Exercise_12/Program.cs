@@ -23,7 +23,7 @@ namespace Exercise_12
                 number /= 10;
             }
 
-            Console.WriteLine((sumOfDigits* 2 == n) ? "yes" : "no");
+            Console.WriteLine((sumOfDigits * 2 == n) ? "yes" : "no");
             Console.ReadKey();
         }
     }
